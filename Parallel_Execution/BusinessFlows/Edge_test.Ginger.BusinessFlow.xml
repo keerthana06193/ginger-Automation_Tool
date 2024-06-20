@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="67c2263a-cec0-4355-a6cb-d852eba5d143" ItemType="BusinessFlow" CreatedBy="keert" Created="202406180705" GingerVersion="24.2.0.0" Version="3" LastUpdateBy="keert" LastUpdate="202406180726" />
+<BusinessFlow Guid="67c2263a-cec0-4355-a6cb-d852eba5d143" Name="Edge_test" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="47e10f97-0d87-4ef9-9919-5109a8138134" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="Parallel_Exe_App" Type="Regular">
+<Acts>
+<ActBrowserElement Active="True" Description="Demo Site -URL" Guid="065560d8-24cc-4833-b9bf-5c82a83ee8f8" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="e25a4f42-cfc0-445a-b7fa-23b5c3b6cfca" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="8bc5b342-14b9-4b22-9e36-567a4c0f3e20" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://demo.automationtesting.in/Register.html" />
+<ActInputValue Guid="4416e464-5f15-4b5a-905c-0ba36502fac4" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="02d23f81-9984-4e13-ae43-e54bf0c340bc" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="73bc5288-7ade-4144-8b33-12d000c5e444" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="4c2c5247-bd5c-4361-a133-dee773180b03" Param="eMonitorUrl" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllUrl" />
+<ActInputValue Guid="6623637c-df0a-42bf-a366-4347e6be4edd" Param="eRequestTypes" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FetchOrXHR" />
+<ActInputValue Guid="748de97c-8693-4684-a46c-e2ce00126da3" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="ddd84403-4328-4a7c-a3ed-8ad63151e9b4" Param="ImplicitWait" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="82263634-3f52-48bf-9f78-e77c3406d9c8" Param="sBlockedUrls" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="702270f7-2d46-4e3e-a2d0-ac06ab29105d" Param="NetworkLog" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="cde18e71-c633-4a30-8e45-38fd91f2557c" Param="NetworkUrl" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="76256966-0fd7-4741-aaf0-bc87150cbfc1" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="be591596-c189-4d54-975a-03c6cc8e897b" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="47e10f97-0d87-4ef9-9919-5109a8138134" ActivityName="Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="b977dc8b-75d8-46c5-bad7-fb7f6fa481c3" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="Parallel_Exe_App" Guid="248dae68-4a42-4b03-866a-c092e889d058" LastExecutingAgentName="Edge_Agent" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

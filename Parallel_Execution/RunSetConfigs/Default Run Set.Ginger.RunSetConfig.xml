@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="857d44b1-0d20-4e28-96c4-0c9b111670a7" ItemType="RunSetConfig" CreatedBy="keert" Created="202406180720" GingerVersion="24.2.0.0" Version="5" LastUpdateBy="keert" LastUpdate="202406180735" />
+<RunSetConfig Guid="857d44b1-0d20-4e28-96c4-0c9b111670a7" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsTestRecommendations="No">
+<CategoriesDefinitions>
+<SolutionCategoryDefinition Category="Product" Guid="5b3cfb74-223d-4fe1-9b73-19bd80d90bdf" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="TestType" Guid="6026e5a4-96b0-44a9-82d3-eb4419596f94" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="Release" Guid="83e794c6-4732-4542-ac1d-b0a75d050f09" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="Iteration" Guid="b234a98c-6ac5-4903-89d9-e33e9c59ba68" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="BusinessProcessTag" Guid="34232a72-84c7-4ef5-bf7f-7ac0691f2581" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="SubBusinessProcessTag" Guid="d2ad014b-c0fd-408a-8328-38ef3743fd3b" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="UserCategory1" Guid="4682cae3-ca3b-4d35-92f9-a4bb48d00152" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="UserCategory2" Guid="76711a15-ef2a-43d2-92b5-1bfeb7014bdb" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+<SolutionCategoryDefinition Category="UserCategory3" Guid="624bbec8-8c84-405a-99e5-52e27f2c9ee8" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
+</CategoriesDefinitions>
+
+<GingerRunners>
+<GingerRunner Guid="a5f1d508-98b0-4710-ba19-c9a99a7e3070" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="4c0f96ee-71e3-4484-9990-dfbd92d048f7" AgentName="Chrome_Agent" AppID="a6f2f303-6764-4495-9ffe-bcb47cacb3cc" AppName="Parallel_Exe_App" Guid="69fb4c56-c8de-4426-a40a-10984cb58afc" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="d0f561e7-9726-4d4b-849e-7387eb4542df" BusinessFlowInstanceGuid="9db14f75-0c00-4c02-b294-459dc0e5bfa9" BusinessFlowIsActive="True" BusinessFlowName="Chrome_test" Guid="630d7e5e-e1f2-43ac-9cc9-2cd1a615b430" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+<GingerRunner Guid="72970723-cbf7-49d2-8b7c-97162aa6fc1e" Name="Runner 2" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="f2cadc57-e6e4-4cca-9451-0f8c3ad1a039" AgentName="Edge_Agent" AppID="a6f2f303-6764-4495-9ffe-bcb47cacb3cc" AppName="Parallel_Exe_App" Guid="aab861ca-7a2d-41ee-bc36-5c343216818f" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="67c2263a-cec0-4355-a6cb-d852eba5d143" BusinessFlowInstanceGuid="5ed24149-9995-4526-b3ae-773894f965f2" BusinessFlowIsActive="True" BusinessFlowName="Edge_test" Guid="852aa850-4dbd-4795-983a-9788f27a6255" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+<GingerRunner Guid="185e2569-6bb4-4d3f-b726-45c832c28214" Name="Runner 3" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="e7255c75-26e0-4e26-a2cf-a29a5d0e975e" AgentName="Firefox_Agent" AppID="a6f2f303-6764-4495-9ffe-bcb47cacb3cc" AppName="Parallel_Exe_App" Guid="32dce29a-d2c4-435d-88bf-5a313467546c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="7c26b458-7662-462f-a6a3-7b22da2df978" BusinessFlowInstanceGuid="e02313f1-ef85-4d74-b27f-9fb97d48017e" BusinessFlowIsActive="True" BusinessFlowName="Firefox_test" Guid="a1707b64-afde-4afa-837c-653673273bc5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+
+<SelfHealingConfiguration>
+<SelfHealingConfig EnableSelfHealing="True" Guid="7acc03cb-600a-4443-a0bd-ee12508b5e1f" ParentGuid="00000000-0000-0000-0000-000000000000" ReprioritizePOMLocators="True" />
+</SelfHealingConfiguration>
+</RunSetConfig></GingerRepositoryItem>

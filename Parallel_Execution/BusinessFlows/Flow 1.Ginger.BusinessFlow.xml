@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="d0f561e7-9726-4d4b-849e-7387eb4542df" ItemType="BusinessFlow" CreatedBy="keert" Created="202406180704" GingerVersion="24.2.0.0" Version="5" LastUpdateBy="keert" LastUpdate="202406180726" />
+<BusinessFlow Guid="d0f561e7-9726-4d4b-849e-7387eb4542df" Name="Chrome_test" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="e655b580-c1f7-41d6-a1ef-128b962372ca" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="Parallel_Exe_App" Type="Regular">
+<Acts>
+<ActBrowserElement Active="True" Description="Demo Site -URL" Guid="ebc1358d-6885-480a-8a00-cb8a750868ef" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="7e61d961-8025-495b-a75d-a47e05cbee26" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="55e8f330-b402-431b-ab72-0f27b41f17f5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://demo.automationtesting.in/Register.html" />
+<ActInputValue Guid="d9745531-ef93-495c-8c50-222e4615f4c0" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="3cf4ea18-477d-455d-86f7-f25e7950fa91" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="70e4de54-a8ff-4909-84c9-9efd0db6cd7a" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="42de781f-72f8-400b-86e7-19648bbf3a93" Param="eMonitorUrl" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllUrl" />
+<ActInputValue Guid="48abaeb5-2d62-4b15-81b9-e1b87876e3e9" Param="eRequestTypes" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FetchOrXHR" />
+<ActInputValue Guid="5c5ef27b-df60-46a1-9cb0-6feab3764bea" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="0d2cbf46-72ca-4ffd-a8eb-39e4f90324c0" Param="ImplicitWait" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="3d6fc9ee-caea-4a67-99e4-b753d699e721" Param="sBlockedUrls" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="317ff190-2bbe-425f-9c7c-ee2deff3acb1" Param="NetworkLog" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="ce62a953-eb91-47a3-9886-97b3defa370b" Param="NetworkUrl" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="48d3a376-2b7f-4434-8c27-850c09edcecc" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="0ae85e3e-f62b-40f1-a14a-32e7ed9f0ea7" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="e655b580-c1f7-41d6-a1ef-128b962372ca" ActivityName="Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="94cfa4cd-3c93-4ef7-bc4b-c0963a242343" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="Parallel_Exe_App" Guid="db49b81e-315d-4c9a-8064-43afc374a3b0" LastExecutingAgentName="Chrome_Agent" ParentGuid="a6f2f303-6764-4495-9ffe-bcb47cacb3cc" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
