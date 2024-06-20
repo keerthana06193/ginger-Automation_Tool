@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="523d2b71-7ee6-48a9-9ccd-134632ff29dc" ItemType="ProjEnvironment" CreatedBy="keert" Created="202406180704" GingerVersion="24.2.0.0" Version="1" LastUpdateBy="keert" LastUpdate="202406180704" />
-<ProjEnvironment Guid="523d2b71-7ee6-48a9-9ccd-134632ff29dc" Name="Default" ParentGuid="00000000-0000-0000-0000-000000000000">
-<Applications>
-<EnvApplication Active="True" Guid="6255f2c1-b95e-46be-9a6b-d2a2abc5bc68" Name="Parallel_Exe_App" ParentGuid="a6f2f303-6764-4495-9ffe-bcb47cacb3cc" />
-</Applications>
-</ProjEnvironment></GingerRepositoryItem>
